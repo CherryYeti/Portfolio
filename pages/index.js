@@ -18,7 +18,6 @@ const Page = () => {
                         <Heading as="h2" variant="page-title">
                             Jason Javandel
                         </Heading>
-                        <p>Fill this in later!</p>
                     </Box>
                 </Box>
                 <Section delay={0.1}>
