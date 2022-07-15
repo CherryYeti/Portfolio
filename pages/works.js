@@ -12,7 +12,7 @@ const works = () => {
             <SimpleGrid columns={[1, 1, 2]} gap={6}>
                 <Section>
                     <WorkGridItem id="firestarter" title="Firestarter" thumbnail={thumbFirestarter}>
-                        Discord bot for launching and managin minecraft servers
+                        FireStarter is a free and open source Discord bot used to start, stop and manage options on your minecraft servers using Node.js
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>

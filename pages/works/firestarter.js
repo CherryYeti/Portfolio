@@ -15,7 +15,7 @@ const Work = () => {
                     Firestarter <Badge>2022</Badge>
                 </Title>
                 <P>
-                    A node.js discord bot written to help start, stop and manage minecraft servers.
+                    FireStarter is a free and open source Discord bot used to start, stop and manage options on your minecraft servers using Node.js
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
