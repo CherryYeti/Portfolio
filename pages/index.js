@@ -11,7 +11,7 @@ const Page = () => {
         <Layout>
             <Container>
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-                    Hello, I&apos;m a college student and linux enthusiast.
+                    Hello, I&apos;m a college student and arch linux enthusiast.
                 </Box>
                 <Box display={{ md: 'flex' }}>
                     <Box flexGrow={1}>
@@ -25,7 +25,7 @@ const Page = () => {
                         Work
                     </Heading>
                     <Paragraph>
-                        Hello! I am a 17 year old freshman at the University of California Merced.
+                        Hello! I am a 17 year old freshman at the University of California, Merced.
                         I am majoring in computer science, and I love creating things.
                         My most recent project that I have taken up is {' '}
                         <NextLink href="/works/firestarter">
