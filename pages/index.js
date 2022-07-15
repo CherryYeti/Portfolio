@@ -50,7 +50,7 @@ const Page = () => {
                         Born in Oakland, California
                     </BioSection>
                     <BioSection>
-                        <BioYear>2014</BioYear>
+                        <BioYear>2013</BioYear>
                         Introduced to programming
                     </BioSection>
                     <BioSection>
@@ -61,7 +61,7 @@ const Page = () => {
                         <BioYear>2022</BioYear>
                         Started development on  {' '}
                         <NextLink href="/works/firestarter"><Link>Firestarter</Link>
-                        </NextLink>.
+                        </NextLink>
                     </BioSection>
                     <BioSection>
                         <BioYear>2022 to present</BioYear>

@@ -1,12 +1,9 @@
-import { Container, Badge, Link, List, ListItem, Button, SimpleGrid, GridItem } from "@chakra-ui/react";
+import { Container, Badge, Link, List, ListItem} from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
-import { Title, WorkImage, Meta } from "../../components/work";
+import { Title, Meta } from "../../components/work";
 import NextLink from 'next/link'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import P from '../../components/paragraph'
 import Layout from "../../components/layouts/article";
-import Section from "../../components/section";
-import { Heading } from "@chakra-ui/react";
 import Links from "../../components/links";
 const Work = () => {
     return (
