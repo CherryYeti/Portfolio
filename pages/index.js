@@ -56,7 +56,7 @@ const Page = () => {
                     </BioSection>
                     <BioSection>
                         <BioYear>2021</BioYear>
-                        Quit playing baseball and started to coach
+                        Quit playing baseball and started to coach teams
                     </BioSection>
                     <BioSection>
                         <BioYear>2022</BioYear>
