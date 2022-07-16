@@ -19,8 +19,8 @@ const Work = () => {
                     {' '}
                     {' '}
                     <Link href="https://reactjs.org/" target="_blank">React JS<ExternalLinkIcon mx="2px" /></Link>,
-                    <Link href="https://chakra-ui.com/" target="_blank">Chakra UI<ExternalLinkIcon mx="2px" /></Link>, and
-                    <Link href="https://nextjs.org/" target="_blank"> Next JS<ExternalLinkIcon mx="2px" /></Link>.
+                    <Link href="https://chakra-ui.com/" target="_blank">Chakra UI<ExternalLinkIcon mx="2px" /></Link>, and&nbsp;
+                    <Link href="https://nextjs.org/" target="_blank">Next JS<ExternalLinkIcon mx="2px" /></Link>.
                     The video that I learned all of this from is
                     {' '}
                     <Link href="https://www.youtube.com/watch?v=bSMZgXzC9AA" target="_blank">this video<ExternalLinkIcon mx="2px" /></Link>
