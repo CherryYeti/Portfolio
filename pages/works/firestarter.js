@@ -34,7 +34,6 @@ const Work = () => {
                         </Link>
                     </ListItem>
                 </List>
-                <Links />
                 <Footer />
             </Container>
         </Layout>
