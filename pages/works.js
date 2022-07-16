@@ -4,8 +4,10 @@ import { WorkGridItem } from "../components/grid-item"
 import thumbFirestarter from "../public/images/works/firestarter.png"
 import thumbWebsite from "../public/images/works/website.png"
 import Footer from "../components/footer"
+import Layout from "../components/layouts/article"
 const works = () => {
     return (
+        <Layout title="Works">
         <Container>
             <Heading as="h3" fontSize={20} mb={4}>
                 Works
@@ -25,6 +27,7 @@ const works = () => {
             <Footer />
 
         </Container>
+        </Layout>
     )
 }
 
