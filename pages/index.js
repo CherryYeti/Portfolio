@@ -1,12 +1,13 @@
-import { Box, Button, Container, Heading, Image, Link, useColorModeValue } from '@chakra-ui/react'
-import NextLink from 'next/link'
-import Layout from '../components/layouts/article'
-import Section from '../components/section'
-import Paragraph from '../components/paragraph'
-import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
-import Links from '../components/links'
+import { Box, Button, Container, Heading, Image, Link, useColorModeValue } from '@chakra-ui/react'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import Footer from '../components/footer'
+import Layout from '../components/layouts/article'
+import Links from '../components/links'
+import NextLink from 'next/link'
+import Paragraph from '../components/paragraph'
+import Section from '../components/section'
+
 const Page = () => {
     return (
         <Layout title="Homepage">

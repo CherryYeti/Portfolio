@@ -1,6 +1,7 @@
-import Section from "./section"
 import { Heading, List, ListItem, Button, Link } from "@chakra-ui/react"
 import { IoLogoGithub } from "react-icons/io5"
+import Section from "./section"
+
 const Links = () => {
     return (
         <Section delay={0.3}>

@@ -1,10 +1,11 @@
 import { Container, Heading, SimpleGrid } from "@chakra-ui/react"
-import Section from '../components/section'
 import { WorkGridItem } from "../components/grid-item"
-import thumbFirestarter from "../public/images/works/firestarter.png"
-import thumbWebsite from "../public/images/works/website.png"
 import Footer from "../components/footer"
 import Layout from "../components/layouts/article"
+import Section from '../components/section'
+import thumbFirestarter from "../public/images/works/firestarter.png"
+import thumbWebsite from "../public/images/works/website.png"
+
 const works = () => {
     return (
         <Layout title="Works">

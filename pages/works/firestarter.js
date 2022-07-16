@@ -1,10 +1,11 @@
 import { Container, Badge, Link, List, ListItem, Button, SimpleGrid, GridItem } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { Title, WorkImage, Meta } from "../../components/work";
-import P from '../../components/paragraph'
+import Footer from "../../components/footer";
 import Layout from "../../components/layouts/article";
 import Links from "../../components/links";
-import Footer from "../../components/footer";
+import P from '../../components/paragraph'
+
 const Work = () => {
     return (
         <Layout title="Firestarter">

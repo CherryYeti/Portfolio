@@ -1,4 +1,3 @@
-
 const Fonts = () => (
   <style jsx global>{
     `
