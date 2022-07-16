@@ -66,7 +66,7 @@ const Page = () => {
                         </NextLink>
                     </BioSection>
                     <BioSection>
-                        <BioYear>2022 to present</BioYear>
+                        <BioYear>2022-</BioYear>
                         Attending the University of California Merced, studying Computer Science
                     </BioSection>
                 </Section>
