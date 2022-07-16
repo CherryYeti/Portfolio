@@ -1,12 +1,10 @@
 import { Container, Badge, Link, List, ListItem, Button, SimpleGrid, GridItem } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { Title, WorkImage, Meta } from "../../components/work";
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import P from '../../components/paragraph'
 import Layout from "../../components/layouts/article";
-import Section from "../../components/section";
-import { Heading } from "@chakra-ui/react";
 import Links from "../../components/links";
+import Footer from "../../components/footer";
 const Work = () => {
     return (
         <Layout title="Firestarter">
@@ -36,6 +34,7 @@ const Work = () => {
                     </ListItem>
                 </List>
                 <Links />
+                <Footer />
             </Container>
         </Layout>
     )

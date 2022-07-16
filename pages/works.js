@@ -3,7 +3,7 @@ import Section from '../components/section'
 import { WorkGridItem } from "../components/grid-item"
 import thumbFirestarter from "../public/images/works/firestarter.png"
 import thumbWebsite from "../public/images/works/website.png"
-
+import Footer from "../components/footer"
 const works = () => {
     return (
         <Container>
@@ -22,6 +22,8 @@ const works = () => {
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>
+            <Footer />
+
         </Container>
     )
 }

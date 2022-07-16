@@ -6,12 +6,13 @@ import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import Links from '../components/links'
+import Footer from '../components/footer'
 const Page = () => {
     return (
         <Layout>
             <Container>
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-                    Hello, I&apos;m a college student and arch linux enthusiast.
+                    Hello, I&apos;m a college student and arch linux enthusiast!
                 </Box>
                 <Box display={{ md: 'flex' }}>
                     <Box flexGrow={1}>
@@ -26,7 +27,7 @@ const Page = () => {
                     </Heading>
                     <Paragraph>
                         Hello! I am a 17 year old freshman at the University of California, Merced.
-                        I am majoring in computer science, and I love creating things.
+                        I am majoring in computer science, and I love creating!
                         My most recent project that I have taken up is {' '}
                         <NextLink href="/works/firestarter">
                             <Link>Firestarter</Link>
@@ -55,7 +56,7 @@ const Page = () => {
                     </BioSection>
                     <BioSection>
                         <BioYear>2021</BioYear>
-                        Quit playing baseball and started to coach a team
+                        Found a passion for coaching baseball teams
                     </BioSection>
                     <BioSection>
                         <BioYear>2022</BioYear>
@@ -69,6 +70,7 @@ const Page = () => {
                     </BioSection>
                 </Section>
                 <Links />
+                <Footer />
             </Container>
         </Layout>
     )
