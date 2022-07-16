@@ -13,7 +13,18 @@ const Work = () => {
                     Website <Badge>2022</Badge>
                 </Title>
                 <P>
-                    This website was created using ReactJS, Chakra UI, and NextJS.
+                    This website was created using {' '}
+                    <NextLink href="https://reactjs.org/chakra">
+                        <Link>React JS</Link>
+                    </NextLink>,
+                    {' '}
+                    <NextLink href="https://chakra-ui.com/">
+                        <Link>Chakra UI</Link>
+                    </NextLink>,
+                    and {' '}
+                    <NextLink href="https://nextjs.org/">
+                        <Link>Next JS</Link>
+                    </NextLink>.
                     The video that I learned all of this from is {' '}
                     <NextLink href="https://www.youtube.com/watch?v=bSMZgXzC9AA">
                         <Link>This Video</Link>
