@@ -18,8 +18,8 @@ const Work = () => {
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href='https://www.github.com/CherryYeti/firestarter/wiki'>
-                            https://www.github.com/CherryYeti/firestarter/wiki <ExternalLinkIcon mx="2px" />
+                        <Link href='https://fire-starter-website.vercel.app/'>
+                            https://fire-starter-website.vercel.app/ <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                     <ListItem>
