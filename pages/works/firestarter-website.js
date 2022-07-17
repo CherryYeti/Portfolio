@@ -11,10 +11,10 @@ const Work = () => {
         <Layout title="Website">
             <Container>
                 <Title>
-                    This Website <Badge>2022</Badge>
+                    FireStarter Website <Badge>2022</Badge>
                 </Title>
                 <P>
-                    This website was created using
+                    The website was created using
                     {' '}
                     {' '}
                     {' '}
@@ -23,14 +23,14 @@ const Work = () => {
                     <Link href="https://nextjs.org/" target="_blank"><u>Next JS</u><ExternalLinkIcon mx="2px" /></Link>.
                     The video that I learned all of this from is
                     {' '}
-                    <Link href="https://www.youtube.com/watch?v=bSMZgXzC9AA" target="_blank"><u> this video</u><ExternalLinkIcon mx="2px" /></Link>
+                    <Link href="https://www.youtube.com/watch?v=bSMZgXzC9AA" target="_blank"><u>this video</u><ExternalLinkIcon mx="2px" /></Link>
                     ,made by one of my favorite youtubers
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href='https://portfolio-cherryyeti.vercel.app/' target="_blank">
-                            <u>https://portfolio-cherryyeti.vercel.app/</u>  <ExternalLinkIcon mx="2px" />
+                        <Link href='https://fire-starter-website.vercel.app/' target="_blank">
+                            <u>https://fire-starter-website.vercel.app/</u> <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                     <ListItem>
@@ -39,8 +39,8 @@ const Work = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Source Code</Meta>
-                        <Link href='https://www.github.com/CherryYeti/portfolio/' target="_blank">
-                            <u>https://www.github.com/CherryYeti/portfolio/</u>  <ExternalLinkIcon mx="2px" />
+                        <Link href='https://github.com/CherryYeti/FireStarter-Website' target="_blank">
+                            <u>https://github.com/CherryYeti/FireStarter-Website</u>  <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                 </List>

@@ -19,7 +19,7 @@ const Work = () => {
                     <ListItem>
                         <Meta>Website</Meta>
                         <Link href='https://fire-starter-website.vercel.app/'>
-                            https://fire-starter-website.vercel.app/ <ExternalLinkIcon mx="2px" />
+                        <u>https://fire-starter-website.vercel.app/</u> <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                     <ListItem>
@@ -29,7 +29,7 @@ const Work = () => {
                     <ListItem>
                         <Meta>Source Code</Meta>
                         <Link href='https://www.github.com/CherryYeti/firestarter/'>
-                            https://www.github.com/CherryYeti/firestarter/ <ExternalLinkIcon mx="2px" />
+                        <u>https://www.github.com/CherryYeti/firestarter/</u> <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                 </List>

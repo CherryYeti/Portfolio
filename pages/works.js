@@ -26,7 +26,7 @@ const works = () => {
                         </WorkGridItem>
                     </Section>
                     <Section>
-                        <WorkGridItem id="website" title="FireStarter Website" thumbnail={thumbFirestarterWeb} year={2022}>
+                        <WorkGridItem id="firestarter-website" title="FireStarter Website" thumbnail={thumbFirestarterWeb} year={2022}>
                             This website was created using ReactJS, Chakra UI, and NextJS
                         </WorkGridItem>
                     </Section>
