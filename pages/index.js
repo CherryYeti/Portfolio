@@ -70,8 +70,12 @@ const Page = () => {
                         Attending the University of California Merced, studying Computer Science
                     </BioSection>
                 </Section>
-                <Links />
-                <Footer />
+                <Section delay={0.3}>
+                    <Links />
+                </Section>
+                <Section delay={0.4}>
+                    <Footer />
+                </Section>
             </Container>
         </Layout>
     )
