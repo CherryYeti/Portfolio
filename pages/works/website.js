@@ -24,7 +24,7 @@ const Work = () => {
                     The video that I learned all of this from is
                     {' '}
                     <Link href="https://www.youtube.com/watch?v=bSMZgXzC9AA" target="_blank"><u> this video</u><ExternalLinkIcon mx="2px" /></Link>
-                    ,made by one of my favorite youtubers
+                    , made by one of my favorite youtubers
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
