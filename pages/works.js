@@ -4,7 +4,8 @@ import Footer from "../components/footer"
 import Layout from "../components/layouts/article"
 import Section from '../components/section'
 import thumbFirestarter from "../public/images/works/firestarter.png"
-import thumbWebsite from "../public/images/works/website.png"
+import thumbPortfolio from "../public/images/works/portfolio.png"
+import thumbFirestarterWeb from  "../public/images/works/firestarter-website.png"
 
 const works = () => {
     return (
@@ -20,7 +21,12 @@ const works = () => {
                         </WorkGridItem>
                     </Section>
                     <Section>
-                        <WorkGridItem id="website" title="This Website" thumbnail={thumbWebsite} year={2022}>
+                        <WorkGridItem id="website" title="This Website" thumbnail={thumbPortfolio} year={2022}>
+                            This website was created using ReactJS, Chakra UI, and NextJS
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem id="website" title="FireStarter Website" thumbnail={thumbFirestarterWeb} year={2022}>
                             This website was created using ReactJS, Chakra UI, and NextJS
                         </WorkGridItem>
                     </Section>
