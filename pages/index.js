@@ -53,7 +53,7 @@ const Page = () => {
                     </BioSection>
                     <BioSection>
                         <BioYear>2013</BioYear>
-                        Introduced to programming
+                        Introduced to programming, started with Javascript
                     </BioSection>
                     <BioSection>
                         <BioYear>2021</BioYear>
