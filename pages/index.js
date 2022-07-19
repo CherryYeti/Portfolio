@@ -11,7 +11,7 @@ import Section from '../components/section'
 const Page = () => {
     return (
         <Layout title="Homepage">
-            <Container>
+            <Container maxW="container.md" >
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
                     Hello, I&apos;m a college student and arch linux enthusiast!
                 </Box>
