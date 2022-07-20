@@ -30,6 +30,11 @@ const works = () => {
                             The website was created using ReactJS, Chakra UI, and NextJS
                         </WorkGridItem>
                     </Section>
+                    <Section>
+                        <WorkGridItem id="osu-scripts" title="Osu on Linux Install Scripts" thumbnail={thumbFirestarterWeb} year={2022}>
+                            Simple bash scripts to install and run Osu on linux!
+                        </WorkGridItem>
+                    </Section>
                 </SimpleGrid>
                 <Footer />
             </Container>
