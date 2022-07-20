@@ -3,7 +3,6 @@ import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { Title, Meta } from "../../components/work";
 import Footer from "../../components/footer";
 import Layout from "../../components/layouts/article";
-import Links from "../../components/links";
 import P from '../../components/paragraph'
 
 const Work = () => {
