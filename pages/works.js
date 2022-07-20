@@ -6,7 +6,7 @@ import Section from '../components/section'
 import thumbFirestarter from "../public/images/works/firestarter.png"
 import thumbPortfolio from "../public/images/works/portfolio.png"
 import thumbFirestarterWeb from  "../public/images/works/firestarter-website.png"
-
+import thumbOsu from "../public/images/works/osu.png"
 const works = () => {
     return (
         <Layout title="Works">
@@ -31,7 +31,7 @@ const works = () => {
                         </WorkGridItem>
                     </Section>
                     <Section>
-                        <WorkGridItem id="osu-scripts" title="Osu on Linux Install Scripts" thumbnail={thumbFirestarterWeb} year={2022}>
+                        <WorkGridItem id="osu-scripts" title="Osu on Linux Install Scripts" thumbnail={thumbOsu} year={2022}>
                             Simple bash scripts to install and run Osu on linux!
                         </WorkGridItem>
                     </Section>
